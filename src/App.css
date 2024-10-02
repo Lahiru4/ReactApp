@@ -1,0 +1,81 @@
+
+/* TODO LOGO CSS */
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ecf0f4;
+    padding: 10px;
+
+}
+.logo-text{
+    font-size: 16px;
+    font-weight: 700;
+    justify-content: end;
+    color: black;
+}
+/*TODO SidebarPage CSS*/
+.menu-bar{
+    width: 240px;
+    height: 130vh;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-size: 16px;
+    position: relative;
+    border-inline-end:white;
+    -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 25px rgba(0, 0, 0, .1)
+}
+/*TODO THEME BUTTON CSS*/
+.toggle-theme-btn{
+    position: absolute;
+    top: 850px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+/*TODO collapsed-button css*/
+.collapsed-button{
+    position: fixed;
+    top: 2%;
+    z-index: 10000000000000000;
+}
+
+/*TODO NAV BAR*/
+.header{
+    position: fixed;
+    height: 70px;
+    width: calc(100% - 250px);
+    right: 0;
+    top: 0;
+    z-index: 123;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 25px rgba(0, 0, 0, .1)
+}
+/*TODO ADD NEW ITEMS FORM CSS*/
+.addnewimageform{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.addnewimageform input{
+    font-size: 18px;
+}
